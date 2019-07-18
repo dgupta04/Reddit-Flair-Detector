@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/dgupta04/Precog2019#readme",
   "dependencies": {
+    "child_process": "^1.0.2",
     "express": "^4.17.1"
   }
 }
