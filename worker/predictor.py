@@ -1,28 +1,33 @@
 import pandas as pd
 from joblib import load
 from worker import config
+from worker import util
 import praw
 import sys
 import re
 
-punctuationRe = re.compile(r'[\/.,\[\];{}|:"<>\?!]')
-symbolsRe = re.compile(r'[0-9@#$&%\*()!\+-]')
-URLRe = re.compile(r'https?:\/\/\S+')
+punctuationRe = util.punctuationRe
+symbolsRe = util.symbolsRe
+URLRe = util.URLRe
+makeString = util.makeString
+removePunctuation = util.removePunctuation
+removeSymbols = util.removeSymbols
+removeURLs = util.removeURLs
 
-def makeString(text):
-    return str(text)
+# def makeString(text):
+#     return str(text)
 
-def removePunctuation(text):    
-    text = punctuationRe.sub(' ', text)
-    return text
+# def removePunctuation(text):    
+#     text = punctuationRe.sub(' ', text)
+#     return text
 
-def removeSymbols(text):
-    text = symbolsRe.sub(' ', text)
-    return text
+# def removeSymbols(text):
+#     text = symbolsRe.sub(' ', text)
+#     return text
 
-def removeURLs(text):
-    text = URLRe.sub('', text)
-    return text
+# def removeURLs(text):
+#     text = URLRe.sub('', text)
+#     return text
 
 def predictFlair(urlInp):
     model = load('./model/finalModel.joblib')

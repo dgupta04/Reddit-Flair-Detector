@@ -11,8 +11,8 @@ def make():
 def predict():
     if request.method=='POST':
         x = request.form['postURL']
-        flair = predictor.predictFlair(x)
-        return(flair)
+        flairName = predictor.predictFlair(x)
+        return render_template('flair.html', flair=flairName)
 
 if __name__ == '__main__':
     app.run(debug=True, port=33507)
