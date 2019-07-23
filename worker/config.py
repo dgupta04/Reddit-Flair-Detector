@@ -1,0 +1,1 @@
+global_config = {'client_id' : "O1tPEPoa4lnyfw", 'client_secret' : "bG2HCSIXN28bUQU3ihfRZpeQkfA", 'user_agent' : "Test API", 'username' : "dgupta04", 'password' : "precogTask2019"}

@@ -10,7 +10,7 @@ app.listen(port, ()=>{
 app.use('/', express.static('public'));
 
 app.get('/print', (req, res)=>{
-    const childProcess = spawn('python', ['./worker/flair_detection.py']);
+    const childProcess = spawn('python', ['./worker/predictor.py']);
     res.set('Content-Type', 'text/plain');
     // mainRes = null;
     childProcess.stdout.pipe(res);
