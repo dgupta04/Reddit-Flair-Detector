@@ -131,7 +131,7 @@ It was observed that the Random Forrest Classifier gave the highest accuracy of 
 # References
 
 1. https://towardsdatascience.com/multi-class-text-classification-with-scikit-learn-12f1e60e0a9f
-2. 
+2. https://www.kdnuggets.com/2016/10/beginners-guide-neural-networks-python-scikit-learn.html/2
 
 [r/india]: <https://www.reddit.com/r/india>
 [link]: <https://divyam-precog-task.herokuapp.com>
