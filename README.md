@@ -144,3 +144,4 @@ It was observed that the Random Forrest Classifier gave the highest accuracy of 
 [Procfile]: <https://github.com/dgupta04/Precog2019/blob/master/Procfile>
 [requirements.txt]: <https://github.com/dgupta04/Precog2019/blob/master/requirements.txt>
 [.gitignore]: <https://github.com/dgupta04/Precog2019/blob/master/.gitignore>
+[re]: <https://docs.python.org/3/library/re.html>
