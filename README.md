@@ -46,11 +46,15 @@ The data consists of 1018 unique reddit posts from the [r/india] subreddit. The 
 
 Pre-processing the data involved removal of symbols, punctuation marks and unwanted URLs to generate a cleaner set of words as a whole feature. This was done using the [re] module in Python.
 
-### 3. Processing textual data into meaningful features
+### 3. Splitting training and testing sets
+
+The cleaned data is split into training and testing sets. In my example, the test data consists of 10% of the overall data, which makes it 102 test samples, leading to a a high number of test samples.
+
+### 4. Processing textual data into meaningful features
 
 Raw textual data cannot be used as a feature since machines understand numbers only. For this purpose, scikit-learn offers powerul processing tools such as the TfidfVectorizer and the CountVectorizer. The text was fed into these vectorizers and analysed further.
 
-### 4. Fitting a suitable model
+### 5. Fitting a suitable model
 
 The TfidfVectorizer was used as the choice of vectorizer to derive better performance of the model. Further, the output yielded by the vectorizer was pipelined with different models. The models used to fit the data include:
 
