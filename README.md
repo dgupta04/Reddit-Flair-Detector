@@ -62,7 +62,7 @@ The TfidfVectorizer was used as the choice of vectorizer to derive better perfor
 #### 1. Using post comments as the only feature
  
 | Classifier                  | Accuracy      |
-| -------------------------- |:-------------:|
+| :--------------------------: |:-------------:|
 | Multinomial Naive Bayes    |51.96078431372549%  |
 | Logistic Regression Classifier      |**59.80392156862745%**|
 | Multi-Layer Perceptron Classifier |53.92156862745098%       |
@@ -71,7 +71,7 @@ The TfidfVectorizer was used as the choice of vectorizer to derive better perfor
 #### 2. Using post body as the only feature
  
 | Classifier                  | Accuracy      |
-| -------------------------- |:-------------:|
+| :--------------------------: |:-------------:|
 | Multinomial Naive Bayes    |24.50980392156862%  |
 | Logistic Regression Classifier      |24.509803921568626%|
 | Multi-Layer Perceptron Classifier |21.568627450980393%       |
@@ -80,7 +80,7 @@ The TfidfVectorizer was used as the choice of vectorizer to derive better perfor
 #### 3. Using post title as the only feature
  
 | Classifier                  | Accuracy      |
-| -------------------------- |:-------------:|
+| :--------------------------: |:-------------:|
 | Multinomial Naive Bayes    |65.68627450980392%  |
 | Logistic Regression Classifier      |65.68627450980392%|
 | Multi-Layer Perceptron Classifier |57.84313725490197%       |
@@ -89,7 +89,7 @@ The TfidfVectorizer was used as the choice of vectorizer to derive better perfor
 #### 4. Using post title and comments as the features
  
 | Classifier                  | Accuracy      |
-| -------------------------- |:-------------:|
+| :--------------------------: |:-------------:|
 | Multinomial Naive Bayes    |64.70588235294118%  |
 | Logistic Regression Classifier      |78.43137254901961%|
 | Multi-Layer Perceptron Classifier |65.68627450980392%       |
@@ -98,7 +98,7 @@ The TfidfVectorizer was used as the choice of vectorizer to derive better perfor
 #### 5. Using post comments and body as the features
  
 | Classifier                  | Accuracy      |
-| -------------------------- |:-------------:|
+| :--------------------------: |:-------------:|
 | Multinomial Naive Bayes    |59.80392156862745%  |
 | Logistic Regression Classifier      |69.6078431372549%|
 | Multi-Layer Perceptron Classifier |61.76470588235294%       |
@@ -109,7 +109,7 @@ The TfidfVectorizer was used as the choice of vectorizer to derive better perfor
 #### 6. Using post comments and body as the features
  
 | Classifier                  | Accuracy      |
-| -------------------------- |:-------------:|
+| :--------------------------: |:-------------:|
 | Multinomial Naive Bayes    |71.56862745098039%  |
 | Logistic Regression Classifier      |75.49019607843137%|
 | Multi-Layer Perceptron Classifier |57.84313725490197%       |
@@ -118,7 +118,7 @@ The TfidfVectorizer was used as the choice of vectorizer to derive better perfor
 #### 7. Using all three (title + comment + body) as the features
  
 | Classifier                  | Accuracy      |
-| -------------------------- |:-------------:|
+| :--------------------------: |:-------------:|
 | Multinomial Naive Bayes    |69.6078431372549%  |
 | Logistic Regression Classifier      |79.41176470588235%|
 | Multi-Layer Perceptron Classifier |71.56862745098039%       |
