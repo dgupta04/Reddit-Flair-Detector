@@ -12,11 +12,12 @@ The root directory has the following components:
   - [worker/predictor.py] - the core prediction algorithm running after the URL is fed on the main website
   - [worker/config.py] - the credentials used for accessing the Reddit API. Can be altered according to user preference.
   - [worker/util.py] - utility functions for pre-processing tasks
+  - [worker/mongoStorage.py] - Python script to store data in MongoDB collections
 - [Procfile] - used for initiating Heroku app
 - [requirements.txt] - Python package requirements, installed on deployment
 - [.gitignore] - files to be ignored by git
 - [db] - contains the MongoDB collections to be accessed by the user
-- [worker/mongoStorage.py] - Python script to store data in MongoDB collections
+- [templates] - templates for different webpages, with Jinja2 templating format
 
 # Codebase
 
@@ -54,7 +55,7 @@ The cleaned data is split into training and testing sets. In my example, the tes
 
 Raw textual data cannot be used as a feature since machines understand numbers only. For this purpose, scikit-learn offers powerul processing tools such as the TfidfVectorizer and the CountVectorizer. The text was fed into these vectorizers and analysed further.
 
-### 5. Fitting a suitable model
+### 5s. Fitting a suitable model
 
 The TfidfVectorizer was used as the choice of vectorizer to derive better performance of the model. Further, the output yielded by the vectorizer was pipelined with different models. The models used to fit the data include:
 
@@ -153,3 +154,4 @@ It was observed that the Random Forrest Classifier gave the highest accuracy of 
 [re]: <https://docs.python.org/3/library/re.html>
 [db]: <https://github.com/dgupta04/Precog2019/blob/master/db>
 [worker/mongoStorage.py]: <https://github.com/dgupta04/Precog2019/blob/master/worker/mongoStorage.py>
+[templates]: <https://github.com/dgupta04/Precog2019/blob/master/templates>
