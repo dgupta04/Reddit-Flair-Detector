@@ -28,4 +28,4 @@ for flair in all_flair:
        all_data["comments"].append(mainStr)
 
 dataStore = pd.DataFrame(all_data)
-dataStore.to_csv('data.csv', index=False)
+dataStore.to_csv('../csv_data/data.csv', index=False)
