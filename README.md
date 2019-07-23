@@ -135,7 +135,7 @@ It was observed that the Random Forrest Classifier gave the highest accuracy of 
 [worker/dataCollector.py]: <https://github.com/dgupta04/Precog2019/blob/master/worker/dataCollector.py>
 [csv_data/data.csv]: <https://github.com/dgupta04/Precog2019/blob/master/csv_data/data.csv>
 [worker/modelGenerator.py]: <https://github.com/dgupta04/Precog2019/blob/master/worker/modelGenerator.py>
-[worker/prediction.py]: <https://github.com/dgupta04/Precog2019/blob/master/worker/predictor.py>
+[worker/predictor.py]: <https://github.com/dgupta04/Precog2019/blob/master/worker/predictor.py>
 [worker/config.py]: <https://github.com/dgupta04/Precog2019/blob/master/worker/config.py>
 [worker/util.py]: <https://github.com/dgupta04/Precog2019/blob/master/worker/util.py>
 [Procfile]: <https://github.com/dgupta04/Precog2019/blob/master/Procfile>
