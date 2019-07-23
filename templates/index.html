@@ -6,7 +6,7 @@
 
 <body>
 	<h1>Reddit Flair Detector (Powered by <a href="https://scikit-learn.org/stable/">sklearn</a>)</h1>
-	<form action="http://localhost:5000/getFlair" method="POST">
+	<form action="/getFlair" method="POST">
 		<input type="text" name="postURL" id="urlInp" placeholder="Please enter a valid Reddit URL from r/india">
 		<input type="submit" value="Detect!" onclick="sendURL()">
 	</form>
