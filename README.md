@@ -131,10 +131,11 @@ It was observed that the Random Forrest Classifier gave the highest accuracy of 
 [r/india]: <https://www.reddit.com/r/india>
 [link]: <https://divyam-precog-task.herokuapp.com>
 [app.py]: <https://github.com/dgupta04/Precog2019/blob/master/app.py>
+[worker]: <https://github.com/dgupta04/Precog2019/blob/master/worker>
 [worker/dataCollector.py]: <https://github.com/dgupta04/Precog2019/blob/master/worker/dataCollector.py>
 [csv_data/data.csv]: <https://github.com/dgupta04/Precog2019/blob/master/csv_data/data.csv>
 [worker/modelGenerator.py]: <https://github.com/dgupta04/Precog2019/blob/master/worker/modelGenerator.py>
-[worker/prediction.py]: <https://github.com/dgupta04/Precog2019/blob/master/worker/prediction.py>
+[worker/prediction.py]: <https://github.com/dgupta04/Precog2019/blob/master/worker/predictor.py>
 [worker/config.py]: <https://github.com/dgupta04/Precog2019/blob/master/worker/config.py>
 [worker/util.py]: <https://github.com/dgupta04/Precog2019/blob/master/worker/util.py>
 [Procfile]: <https://github.com/dgupta04/Precog2019/blob/master/Procfile>
