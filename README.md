@@ -15,6 +15,8 @@ The root directory has the following components:
 - [Procfile] - used for initiating Heroku app
 - [requirements.txt] - Python package requirements, installed on deployment
 - [.gitignore] - files to be ignored by git
+- [db] - contains the MongoDB collections to be accessed by the user
+- [worker/mongoStorage.py] - Python script to store data in MongoDB collections
 
 # Codebase
 
@@ -145,3 +147,5 @@ It was observed that the Random Forrest Classifier gave the highest accuracy of 
 [requirements.txt]: <https://github.com/dgupta04/Precog2019/blob/master/requirements.txt>
 [.gitignore]: <https://github.com/dgupta04/Precog2019/blob/master/.gitignore>
 [re]: <https://docs.python.org/3/library/re.html>
+[db]: <https://github.com/dgupta04/Precog2019/blob/master/db>
+[worker/mongoStorage.py]: <https://github.com/dgupta04/Precog2019/blob/master/worker/mongoStorage.py>
