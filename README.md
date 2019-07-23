@@ -56,7 +56,7 @@ The cleaned data is split into training and testing sets. In my example, the tes
 
 Raw textual data cannot be used as a feature since machines understand numbers only. For this purpose, scikit-learn offers powerul processing tools such as the TfidfVectorizer and the CountVectorizer. The text was fed into these vectorizers and analysed further.
 
-### 5s. Fitting a suitable model
+### 5. Fitting a suitable model
 
 The TfidfVectorizer was used as the choice of vectorizer to derive better performance of the model. Further, the output yielded by the vectorizer was pipelined with different models. The models used to fit the data include:
 
