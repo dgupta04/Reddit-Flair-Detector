@@ -1,7 +1,7 @@
 import re
 
 punctuationRe = re.compile(r'[\/.,\[\];{}|:"<>\?!]')
-symbolsRe = re.compile(r'[0-9@#$&%\*()!\+-]')
+symbolsRe = re.compile(r'[0-9@#$&%\n\*()!\+-]')
 URLRe = re.compile(r'https?:\/\/\S+')
 
 def makeString(text):

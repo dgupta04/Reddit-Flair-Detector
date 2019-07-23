@@ -12,7 +12,7 @@ import re
 import pathlib
 
 punctuationRe = re.compile(r'[\/.,\[\];{}|:"<>\?!]')
-symbolsRe = re.compile(r'[0-9@#$&%\*()!\+-]')
+symbolsRe = re.compile(r'[0-9@#$&%\n\*()!\+-]')
 URLRe = re.compile(r'https?:\/\/\S+')
 
 def makeString(text):
@@ -106,7 +106,6 @@ for featureCombo in feature_combo:
     RNF(trainDataX, trainDataY, testDataX, testDataY)
     MLP(trainDataX, trainDataY, testDataX, testDataY)
     LRC(trainDataX, trainDataY, testDataX, testDataY)
-    
 
 highestAccuracyTrainX, highestAccuracyTestX, higestAccuracyTrainY, highestAccuracyTestY = train_test_split(feature_combo['all_three'], flairs, test_size=0.1, random_state=42 )
 RNF_allThree = Pipeline([('tfidf', TfidfVectorizer(stop_words='english')), ('rnf',RandomForestClassifier(n_estimators=1000, random_state=42))])
