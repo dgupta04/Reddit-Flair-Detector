@@ -1,6 +1,6 @@
 # Reddit Flair Detector
 
-As a part of the Precog Programming Task 2019, I developed a flair detector, which detects the flair of any post given from the [r/india] subreddit. The code is hosted at the following [link]
+I developed a flair detector, which detects the flair of any post given from the [r/india] subreddit.
 
 # Directory structure
 
@@ -140,7 +140,6 @@ It was observed that the Random Forrest Classifier gave the highest accuracy of 
 2. https://www.kdnuggets.com/2016/10/beginners-guide-neural-networks-python-scikit-learn.html/2
 
 [r/india]: <https://www.reddit.com/r/india>
-[link]: <https://divyam-precog-task.herokuapp.com>
 [app.py]: <https://github.com/dgupta04/Precog2019/blob/master/app.py>
 [worker]: <https://github.com/dgupta04/Precog2019/blob/master/worker>
 [worker/dataCollector.py]: <https://github.com/dgupta04/Precog2019/blob/master/worker/dataCollector.py>
