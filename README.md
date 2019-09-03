@@ -27,7 +27,7 @@ The entire codebase is written in the Python language due to ease of usage and p
 
 To run the code locally on your machine, please execute the following commands:
 
-1. `git clone https://github.com/dgupta04/Precog2019` to clone the repository locally
+1. `git clone https://github.com/dgupta04/Reddit-Flair-Detector` to clone the repository locally
 2. `pip install -r requirements.txt` to install all the dependencies
 3. `mongod --dbpath="./db"` to run the existing MongoDB instance
 4. `mongo` to access all the MongoDB collections
